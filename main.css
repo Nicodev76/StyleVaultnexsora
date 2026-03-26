@@ -2,10 +2,8 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  /* Grundfarbe: Ein sehr dunkles Blau/Grau */
   background-color: #0f0f1b;
 
-  /* Die Lichteffekte (Glow) */
   background-image:
     radial-gradient(
       circle at 20% 30%,
@@ -23,8 +21,18 @@ body {
       transparent 50%
     );
 
-  /* Mesh-Textur (optional für das feine Rauschen/Muster) */
   background-attachment: fixed;
-  font-family: "Inter", sans-serif; /* Empfohlene Schriftart für diesen Look */
+  font-family: "Inter", sans-serif; 
   color: white;
+}
+
+
+.content_div {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.show{
+  display: block !important;
+  opacity: 1;
 }

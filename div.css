@@ -2,3 +2,36 @@
   display: flex;
   align-items: center;
 }
+
+main {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.content_div {
+  background-color: rgb(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgb(255, 255, 255, 0.1);
+  border-radius: 20px;
+
+  padding: 30px;
+  width: 80%;
+  max-height: 1000px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.content_div h2 {
+  font-size: 2.5rem;
+
+  margin-top: 0;
+  background: linear-gradient(90deg, #6450ff, #00c8ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+  padding-bottom: 15px;
+}

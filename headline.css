@@ -11,5 +11,9 @@
 
   display: flex;
   align-items: center;
-  gap: 500px;
+  gap: 50px;
+}
+
+nav{
+  margin-left: 250px;
 }
