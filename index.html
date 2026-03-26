@@ -16,8 +16,36 @@
         <img src="/img/logo.png" alt="" height="100px" />
         <h1 class="headline_print">StyleVault</h1>
       </div>
-
-      
+      <nav>
+        <span class="nav_print" onclick="showContent('main')">Main</span>
+        <span class="nav_print" onclick="showContent('button')">Button</span>
+        <span class="nav_print" onclick="showContent('input')">Input</span>
+        <span class="nav_print" onclick="showContent('print')">Print</span>
+        <span class="nav_print" onclick="showContent('hover')">Hover</span>
+        <span class="nav_print" onclick="showContent('container')">Container</span>
+        <span class="nav_print" onclick="showContent('bilder')">Bilder</span>
+        <span class="nav_print" onclick="showContent('download')">Download</span>
+      </nav>
     </header>
+
+    <main>
+      <section>
+        <h2>Main</h2>
+        <div id="content_main" class="main_div">
+          <p>Dies ist ein Beispieltext für die Main-Klasse.</p>
+          <p>Hier können Sie den Stil der Main-Klasse sehen.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Button</h2>
+        <div id="content_button" class="button_div">
+          <p>Dies ist ein Beispieltext für die Button-Klasse.</p>
+          <p>Hier können Sie den Stil der Button-Klasse sehen.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>

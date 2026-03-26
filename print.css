@@ -1,3 +1,20 @@
 .headline_print{
     font-size: large;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.nav_print{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.nav_print:hover{
+    text-decoration: underline ;
+    text-underline-offset:  40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
