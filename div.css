@@ -35,3 +35,24 @@ main {
   border-bottom: 1px solid rgb(255, 255, 255, 0.1);
   padding-bottom: 15px;
 }
+
+.gallery_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.style-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.style-card:hover {
+  transform: translateY(-5px);
+  border-color: #6450ff;
+}
